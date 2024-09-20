@@ -194,4 +194,96 @@ max-width: 100px;
 
 
 }
+
+body,html{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tudu-container{
+    width: 299px;
+    position: relative;
+  left: 34px;
+
+
+
+
  
+
+    
+}
+
+
+#add-btn{
+
+    width: 275px;
+}
+ 
+ .name-container{
+    
+
+        left: -40px;
+        top: 0px;
+    
+}
+.contact-container{
+    left: -16px;
+        top:0px;
+    
+}
+
+ul{
+    font-size: 10px;
+}
+
+.list h6:nth-child(1){
+    position: relative;
+    right:  30px;
+}
+.list h6:nth-child(2){
+    position: relative;
+    right:  50px;
+}
+
+.list h6:nth-child(3){
+    position: relative;
+    right: -25px;
+}
+
+.allactions{
+
+    height: 20px;
+}
+
+.action-container{
+    /* height: 110px; */
+    left: 45%;
+}
+.action-container2{
+    /* height: 110px; */
+    left: 64%;
+}
+.action-container3{
+    /* height: 110px; */
+    left: 81%;
+}
+.delet{
+    height: 25px;
+}
+.edit{
+    height: 25px;
+}
+.update{
+    height: 25px;
+    width: 65px;
+    text-align: center;
+}
+.list{
+    padding: 0;
+    margin: 0;
+}
+
+}
+    
+
