@@ -195,11 +195,13 @@ max-width: 100px;
 
 }
 
-body,html{
-    overflow: hidden;
-}
 
 @media only screen and (max-width: 600px) {
+
+
+    body,html{
+        overflow-x:  hidden;
+    }
 
     .tudu-container{
     width: 299px;
@@ -224,12 +226,13 @@ body,html{
     
 
         left: -40px;
-        top: 0px;
-    
+        top: 3px;
+        text-align: left;
 }
 .contact-container{
-    left: -16px;
-        top:0px;
+    left: -44px;
+        top:3px;
+        text-align: left;
     
 }
 
@@ -243,7 +246,7 @@ ul{
 }
 .list h6:nth-child(2){
     position: relative;
-    right:  50px;
+    right:  75px;
 }
 
 .list h6:nth-child(3){
@@ -259,23 +262,26 @@ ul{
 .action-container{
     /* height: 110px; */
     left: 45%;
+    gap: 6px;
 }
 .action-container2{
     /* height: 110px; */
     left: 64%;
+    gap: 6px;
 }
 .action-container3{
     /* height: 110px; */
     left: 81%;
+    gap: 6px;
 }
 .delet{
-    height: 25px;
+    height: 22px;
 }
 .edit{
-    height: 25px;
+    height: 22px;
 }
 .update{
-    height: 25px;
+    height: 22px;
     width: 65px;
     text-align: center;
 }
