@@ -53,6 +53,7 @@ add_btn.addEventListener("click", () => {
 
         newEle.textContent = name_input.value;
         newEli2.textContent = contact_input.value;
+        upBtn.style.visibility = "hidden";
       }
     });
     upBtn.style.visibility = "hidden";
