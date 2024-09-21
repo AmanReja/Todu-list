@@ -56,11 +56,21 @@ add_btn.addEventListener("click", () => {
       }
     });
 
-    edBtn.addEventListener("click", () => {
+    edBtn.addEventListener("click", (e) => {
       console.log(newEle.value);
 
       name_input.value = `${newEle.innerText}`;
       contact_input.value = `${newEli2.innerText}`;
+
+      if (edBtn === e.target) {
+        upBtn.style.visibility = "visible";
+      }
+      if (edBtn !== e.target) {
+        upBtn.style.visibility = "hidden";
+      }
+      // } else {
+      //   .style.visibility = "hidden";
+      // }
       // let inp1 = document.createElement("input");
       // inp1.placeholder = "Enter your number";
       // inp1.type = "name";
