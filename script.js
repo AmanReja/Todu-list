@@ -49,12 +49,13 @@ add_btn.addEventListener("click", () => {
 
     upBtn.addEventListener("click", (e) => {
       if (upBtn === e.target) {
-        alert("Do you want to update info");
+        confirm("Do you want to update info");
 
         newEle.textContent = name_input.value;
         newEli2.textContent = contact_input.value;
       }
     });
+    upBtn.style.visibility = "hidden";
 
     edBtn.addEventListener("click", (e) => {
       console.log(newEle.value);
@@ -64,8 +65,7 @@ add_btn.addEventListener("click", () => {
 
       if (edBtn === e.target) {
         upBtn.style.visibility = "visible";
-      }
-      if (edBtn !== e.target) {
+      } else {
         upBtn.style.visibility = "hidden";
       }
       // } else {
